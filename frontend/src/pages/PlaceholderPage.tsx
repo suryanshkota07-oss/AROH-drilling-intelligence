@@ -1,0 +1,1 @@
+export function PlaceholderPage({ title }: { title: string }) { return <section className="placeholder-page panel"><p className="eyebrow">AROH MODULE</p><h2>{title}</h2><p>This route is reserved for a future AROH capability. Command Center is available now using demonstration / synthetic data.</p></section> }

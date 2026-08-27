@@ -1,0 +1,4 @@
+import type { Well } from '../../types/domain'
+import { PanelHeader } from '../common/PanelHeader'
+import { RiskBadge } from '../common/RiskBadge'
+export function ActiveWellsTable({ wells }: { wells: Well[] }) { return <section className="panel table-panel"><PanelHeader title="Active Wells" detail="Synthetic fleet status across demonstration pads" /><div className="table-scroll"><table><thead><tr><th>Well</th><th>Current depth</th><th>Formation</th><th>Status</th><th>Risk</th><th>Updated</th></tr></thead><tbody>{wells.map((well) => <tr key={well.wellId}><td><strong>{well.name}</strong><span>{well.location}</span></td><td>{well.currentDepth.toLocaleString()} m</td><td>{well.formation}</td><td><span className="status-dot" />{well.status}</td><td><RiskBadge level={well.riskLevel} /></td><td>{well.updatedAt}</td></tr>)}</tbody></table></div></section> }

@@ -1,0 +1,2 @@
+import type { LucideIcon } from 'lucide-react'
+export function SummaryCard({ label, value, detail, icon: Icon, tone = 'neutral' }: { label: string; value: string; detail: string; icon: LucideIcon; tone?: 'neutral' | 'normal' | 'elevated' | 'critical' }) { return <article className={`summary-card summary-card--${tone}`}><div className="summary-card__top"><span>{label}</span><span className="summary-card__icon"><Icon aria-hidden="true" size={19} /></span></div><strong>{value}</strong><p>{detail}</p></article> }

@@ -1,0 +1,5 @@
+import { Bot, BookOpen, GitCompareArrows, LayoutDashboard, MapPinned, RadioTower } from 'lucide-react'
+import { NavLink } from 'react-router-dom'
+
+const navigationItems = [{ to: '/command-center', label: 'Command Center', icon: LayoutDashboard }, { to: '/active-well', label: 'Active Well', icon: RadioTower }, { to: '/offset-explorer', label: 'Offset Explorer', icon: MapPinned }, { to: '/correlation', label: 'Correlation', icon: GitCompareArrows }, { to: '/knowledge', label: 'Knowledge', icon: BookOpen }, { to: '/copilot', label: 'Copilot', icon: Bot }]
+export function Sidebar() { return <aside className="sidebar" aria-label="Primary navigation"><div className="brand"><span className="brand-mark" aria-hidden="true">A</span><div><strong>AROH</strong><span>DRILLING INTELLIGENCE</span></div></div><nav className="sidebar-nav">{navigationItems.map(({ to, label, icon: Icon }) => <NavLink className={({ isActive }) => `nav-link${isActive ? ' nav-link--active' : ''}`} key={to} to={to}><Icon aria-hidden="true" size={18} strokeWidth={1.8} /><span>{label}</span></NavLink>)}</nav><div className="sidebar-footer">SIH26121 · Prototype</div></aside> }

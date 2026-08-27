@@ -1,0 +1,6 @@
+import { ArrowUpRight, Gauge, MapPin, RadioTower } from 'lucide-react'
+import type { Well } from '../../types/domain'
+import { PanelHeader } from '../common/PanelHeader'
+import { RiskBadge } from '../common/RiskBadge'
+import { Link } from 'react-router-dom'
+export function ActiveWellSummary({ well }: { well: Well }) { return <section className="panel active-well-summary"><PanelHeader title="Active Well" detail="Live synthetic telemetry snapshot" action={<Link className="text-button" to="/active-well">View well <ArrowUpRight aria-hidden="true" size={15} /></Link>} /><div className="well-name-row"><div className="well-glyph"><RadioTower aria-hidden="true" size={25} /></div><div><h3>{well.name}</h3><p>{well.location} · Updated {well.updatedAt}</p></div><RiskBadge level={well.riskLevel} /></div><div className="well-readings"><div><span>Current depth</span><strong>{well.currentDepth.toLocaleString()} <small>m</small></strong></div><div><span>Formation</span><strong>{well.formation}</strong></div><div><span>ROP</span><strong>{well.rop} <small>m/hr</small></strong></div></div><div className="well-summary-footer"><span><Gauge aria-hidden="true" size={16} />{well.status}</span><span><MapPin aria-hidden="true" size={16} />{well.location}</span></div></section> }
