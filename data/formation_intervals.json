@@ -1,0 +1,12 @@
+[
+  {"well_id":"AROH-ACT-01","formation_id":"FM-ACT-01-01","formation_name":"Dihing Shale","top_md_m":0,"base_md_m":2680,"data_classification":"synthetic_demo"},
+  {"well_id":"AROH-ACT-01","formation_id":"FM-ACT-01-02","formation_name":"Boka Sand","top_md_m":2680,"base_md_m":3180,"data_classification":"synthetic_demo"},
+  {"well_id":"AROH-ACT-01","formation_id":"FM-ACT-01-03","formation_name":"Tipam Shale","top_md_m":3180,"base_md_m":3520,"data_classification":"synthetic_demo"},
+  {"well_id":"AROH-OFF-101","formation_id":"FM-O101-01","formation_name":"Dihing Shale","top_md_m":0,"base_md_m":2665,"data_classification":"synthetic_demo"},
+  {"well_id":"AROH-OFF-101","formation_id":"FM-O101-02","formation_name":"Boka Sand","top_md_m":2665,"base_md_m":3165,"data_classification":"synthetic_demo"},
+  {"well_id":"AROH-OFF-101","formation_id":"FM-O101-03","formation_name":"Tipam Shale","top_md_m":3165,"base_md_m":3490,"data_classification":"synthetic_demo"},
+  {"well_id":"AROH-OFF-102","formation_id":"FM-O102-01","formation_name":"Dihing Shale","top_md_m":0,"base_md_m":2695,"data_classification":"synthetic_demo"},
+  {"well_id":"AROH-OFF-102","formation_id":"FM-O102-02","formation_name":"Boka Sand","top_md_m":2695,"base_md_m":3205,"data_classification":"synthetic_demo"},
+  {"well_id":"AROH-OFF-102","formation_id":"FM-O102-03","formation_name":"Tipam Shale","top_md_m":3205,"base_md_m":3550,"data_classification":"synthetic_demo"},
+  {"well_id":"AROH-OFF-103","formation_id":"FM-O103-01","formation_name":"Dihing Shale","top_md_m":0,"base_md_m":3290,"data_classification":"synthetic_demo"}
+]
