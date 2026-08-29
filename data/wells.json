@@ -1,0 +1,71 @@
+[
+  {
+    "well_id": "AROH-ACT-01",
+    "well_name": "AROH Active-01",
+    "well_role": "active",
+    "status": "drilling",
+    "data_classification": "synthetic_demo",
+    "location": {"latitude": 27.412, "longitude": 95.182},
+    "current_md_m": 2870,
+    "total_depth_md_m": 3520,
+    "trajectory": {"profile": "directional", "max_inclination_deg": 31, "azimuth_deg": 118},
+    "matching_features": {
+      "target_formation": "Boka Sand",
+      "section_type": "8.5in_deviated",
+      "planned_target_depth_md_m": 3520,
+      "lithology_summary": ["shale", "interbedded_sand", "sandstone"],
+      "pressure_regime": "normal"
+    }
+  },
+  {
+    "well_id": "AROH-OFF-101",
+    "well_name": "AROH Offset-101",
+    "well_role": "historical_offset",
+    "status": "completed",
+    "data_classification": "synthetic_demo",
+    "location": {"latitude": 27.417, "longitude": 95.188},
+    "total_depth_md_m": 3490,
+    "trajectory": {"profile": "directional", "max_inclination_deg": 29, "azimuth_deg": 120},
+    "matching_features": {
+      "target_formation": "Boka Sand",
+      "section_type": "8.5in_deviated",
+      "planned_target_depth_md_m": 3490,
+      "lithology_summary": ["shale", "interbedded_sand", "sandstone"],
+      "pressure_regime": "normal"
+    }
+  },
+  {
+    "well_id": "AROH-OFF-102",
+    "well_name": "AROH Offset-102",
+    "well_role": "historical_offset",
+    "status": "completed",
+    "data_classification": "synthetic_demo",
+    "location": {"latitude": 27.405, "longitude": 95.176},
+    "total_depth_md_m": 3550,
+    "trajectory": {"profile": "directional", "max_inclination_deg": 34, "azimuth_deg": 115},
+    "matching_features": {
+      "target_formation": "Boka Sand",
+      "section_type": "8.5in_deviated",
+      "planned_target_depth_md_m": 3550,
+      "lithology_summary": ["shale", "interbedded_sand", "sandstone"],
+      "pressure_regime": "normal"
+    }
+  },
+  {
+    "well_id": "AROH-OFF-103",
+    "well_name": "AROH Offset-103",
+    "well_role": "historical_offset",
+    "status": "completed",
+    "data_classification": "synthetic_demo",
+    "location": {"latitude": 27.438, "longitude": 95.207},
+    "total_depth_md_m": 3290,
+    "trajectory": {"profile": "vertical", "max_inclination_deg": 6, "azimuth_deg": 0},
+    "matching_features": {
+      "target_formation": "Dihing Shale",
+      "section_type": "8.5in_vertical",
+      "planned_target_depth_md_m": 3290,
+      "lithology_summary": ["shale", "siltstone"],
+      "pressure_regime": "normal"
+    }
+  }
+]

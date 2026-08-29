@@ -1,0 +1,16 @@
+[
+  {
+    "scenario_id":"SCN-ACT-01-APPROACH-BOKA",
+    "well_id":"AROH-ACT-01",
+    "scenario_type":"simulated_realtime_drilling",
+    "description":"Synthetic stream approaching the historical Boka Sand loss interval; not a prediction or operational instruction.",
+    "data_classification":"synthetic_demo",
+    "samples":[
+      {"sequence":1,"depth_m":2870,"rop":22.9,"wob":15.4,"rpm":84,"torque":21.3,"mud_weight":1.17},
+      {"sequence":2,"depth_m":2880,"rop":22.1,"wob":15.5,"rpm":83,"torque":21.7,"mud_weight":1.17},
+      {"sequence":3,"depth_m":2890,"rop":21.3,"wob":15.6,"rpm":82,"torque":22.1,"mud_weight":1.17},
+      {"sequence":4,"depth_m":2900,"rop":19.8,"wob":15.8,"rpm":81,"torque":23.0,"mud_weight":1.17},
+      {"sequence":5,"depth_m":2910,"rop":18.2,"wob":15.9,"rpm":80,"torque":24.0,"mud_weight":1.17}
+    ]
+  }
+]

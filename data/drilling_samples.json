@@ -1,0 +1,8 @@
+[
+  {"sample_id":"S-ACT-2860","well_id":"AROH-ACT-01","md_m":2860,"rop_m_per_hr":24.6,"wob_klbf":15.1,"rpm":86,"torque_klbf_ft":20.8,"mud_weight_sg":1.17,"standpipe_pressure_bar":178,"data_classification":"synthetic_demo"},
+  {"sample_id":"S-ACT-2870","well_id":"AROH-ACT-01","md_m":2870,"rop_m_per_hr":22.9,"wob_klbf":15.4,"rpm":84,"torque_klbf_ft":21.3,"mud_weight_sg":1.17,"standpipe_pressure_bar":180,"data_classification":"synthetic_demo"},
+  {"sample_id":"S-O101-2895","well_id":"AROH-OFF-101","md_m":2895,"rop_m_per_hr":20.4,"wob_klbf":15.7,"rpm":82,"torque_klbf_ft":22.7,"mud_weight_sg":1.17,"standpipe_pressure_bar":183,"data_classification":"synthetic_demo"},
+  {"sample_id":"S-O101-2910","well_id":"AROH-OFF-101","md_m":2910,"rop_m_per_hr":16.8,"wob_klbf":15.9,"rpm":80,"torque_klbf_ft":24.8,"mud_weight_sg":1.17,"standpipe_pressure_bar":190,"data_classification":"synthetic_demo"},
+  {"sample_id":"S-O102-2910","well_id":"AROH-OFF-102","md_m":2910,"rop_m_per_hr":19.1,"wob_klbf":15.8,"rpm":81,"torque_klbf_ft":23.9,"mud_weight_sg":1.18,"standpipe_pressure_bar":187,"data_classification":"synthetic_demo"},
+  {"sample_id":"S-O102-2930","well_id":"AROH-OFF-102","md_m":2930,"rop_m_per_hr":14.9,"wob_klbf":16.2,"rpm":79,"torque_klbf_ft":25.6,"mud_weight_sg":1.18,"standpipe_pressure_bar":194,"data_classification":"synthetic_demo"}
+]
