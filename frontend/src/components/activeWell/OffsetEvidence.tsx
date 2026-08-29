@@ -1,0 +1,4 @@
+import type { OffsetEvidence as OffsetEvidenceType } from '../../types/domain'
+import { PanelHeader } from '../common/PanelHeader'
+import { RiskBadge } from '../common/RiskBadge'
+export function OffsetEvidence({ evidence }: { evidence: OffsetEvidenceType[] }) { return <section className="panel offset-evidence"><PanelHeader title="Offset Well Evidence" detail="Most relevant synthetic historical records" /><div className="evidence-list">{evidence.map((item) => <article key={item.wellId} className="evidence-item"><div className="evidence-item__top"><div><strong>{item.wellId}</strong><span>{item.depth.toLocaleString()} m · {item.formation}</span></div><RiskBadge level={item.severity} /></div><dl><div><dt>Historical event</dt><dd>{item.historicalEvent}</dd></div><div><dt>Outcome</dt><dd>{item.outcome}</dd></div></dl></article>)}</div></section> }

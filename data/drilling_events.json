@@ -1,0 +1,41 @@
+[
+  {
+    "event_id":"EVT-O101-001",
+    "well_id":"AROH-OFF-101",
+    "event_type":"partial_lost_circulation",
+    "severity":"elevated",
+    "formation_name":"Boka Sand",
+    "interval_md_m":{"start":2905,"end":2920},
+    "indicators":["reduced_returns","increasing_torque"],
+    "mitigation":"Synthetic demonstration treatment: reduce flow rate and apply a loss-control pill.",
+    "outcome":"Synthetic demonstration outcome: partial returns restored before drilling resumed.",
+    "evidence_ids":["EVD-101-LC-01"],
+    "data_classification":"synthetic_demo"
+  },
+  {
+    "event_id":"EVT-O102-001",
+    "well_id":"AROH-OFF-102",
+    "event_type":"lost_circulation",
+    "severity":"high",
+    "formation_name":"Boka Sand",
+    "interval_md_m":{"start":2918,"end":2935},
+    "indicators":["lost_returns","increasing_standpipe_pressure","reduced_rop"],
+    "mitigation":"Synthetic demonstration treatment: stop drilling, spot loss-control material, and verify returns.",
+    "outcome":"Synthetic demonstration outcome: returns stabilized after treatment and drilling resumed cautiously.",
+    "evidence_ids":["EVD-102-LC-01"],
+    "data_classification":"synthetic_demo"
+  },
+  {
+    "event_id":"EVT-O103-001",
+    "well_id":"AROH-OFF-103",
+    "event_type":"elevated_torque",
+    "severity":"watch",
+    "formation_name":"Dihing Shale",
+    "interval_md_m":{"start":2435,"end":2450},
+    "indicators":["increasing_torque"],
+    "mitigation":"Synthetic demonstration treatment: circulate and condition the hole.",
+    "outcome":"Synthetic demonstration outcome: torque returned to the prior operating range.",
+    "evidence_ids":["EVD-103-TQ-01"],
+    "data_classification":"synthetic_demo"
+  }
+]

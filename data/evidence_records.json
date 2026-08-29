@@ -1,0 +1,32 @@
+[
+  {
+    "evidence_id":"EVD-101-LC-01",
+    "source_record_id":"SRC-O101-DDR-014",
+    "source_type":"synthetic_daily_drilling_report",
+    "well_id":"AROH-OFF-101",
+    "event_id":"EVT-O101-001",
+    "observed_at_md_m":2912,
+    "summary":"Synthetic report records partial returns loss while drilling Boka Sand.",
+    "data_classification":"synthetic_demo"
+  },
+  {
+    "evidence_id":"EVD-102-LC-01",
+    "source_record_id":"SRC-O102-DDR-016",
+    "source_type":"synthetic_daily_drilling_report",
+    "well_id":"AROH-OFF-102",
+    "event_id":"EVT-O102-001",
+    "observed_at_md_m":2926,
+    "summary":"Synthetic report records lost returns and circulation treatment in Boka Sand.",
+    "data_classification":"synthetic_demo"
+  },
+  {
+    "evidence_id":"EVD-103-TQ-01",
+    "source_record_id":"SRC-O103-DDR-009",
+    "source_type":"synthetic_daily_drilling_report",
+    "well_id":"AROH-OFF-103",
+    "event_id":"EVT-O103-001",
+    "observed_at_md_m":2440,
+    "summary":"Synthetic report records elevated torque resolved by a conditioning cycle.",
+    "data_classification":"synthetic_demo"
+  }
+]
